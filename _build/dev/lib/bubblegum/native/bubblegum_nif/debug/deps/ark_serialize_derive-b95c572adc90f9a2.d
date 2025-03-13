@@ -1,0 +1,7 @@
+/home/runner/workspace/_build/dev/lib/bubblegum/native/bubblegum_nif/debug/deps/libark_serialize_derive-b95c572adc90f9a2.so: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/serialize.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/deserialize.rs
+
+/home/runner/workspace/_build/dev/lib/bubblegum/native/bubblegum_nif/debug/deps/ark_serialize_derive-b95c572adc90f9a2.d: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/serialize.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/deserialize.rs
+
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/lib.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/serialize.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-serialize-derive-0.4.2/src/deserialize.rs:

@@ -1,0 +1,10 @@
+/home/runner/workspace/_build/dev/lib/bubblegum/native/bubblegum_nif/debug/deps/liblog-479a6a71daf3df44.rmeta: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/macros.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/serde.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/__private_api.rs
+
+/home/runner/workspace/_build/dev/lib/bubblegum/native/bubblegum_nif/debug/deps/liblog-479a6a71daf3df44.rlib: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/macros.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/serde.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/__private_api.rs
+
+/home/runner/workspace/_build/dev/lib/bubblegum/native/bubblegum_nif/debug/deps/log-479a6a71daf3df44.d: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/macros.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/serde.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/__private_api.rs
+
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/lib.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/macros.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/serde.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.26/src/__private_api.rs:

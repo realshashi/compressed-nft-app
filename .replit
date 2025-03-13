@@ -1,0 +1,51 @@
+modules = ["elixir", "rust", "python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Elixir Tests"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Elixir Tests Verbose"
+
+[[workflows.workflow]]
+name = "Elixir Tests"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "mix test"
+
+[[workflows.workflow]]
+name = "Elixir Tests Verbose"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "MIX_ENV=test RUST_LOG=debug RUST_BACKTRACE=1 mix test --trace"
+
+[deployment]
+run = ["sh", "-c", "mix test"]

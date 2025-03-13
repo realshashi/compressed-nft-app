@@ -1,0 +1,10 @@
+/home/runner/workspace/_build/dev/lib/bubblegum/native/bubblegum_nif/debug/deps/libbs58-02579498da09f42c.rmeta: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/alphabet.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/decode.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/encode.rs
+
+/home/runner/workspace/_build/dev/lib/bubblegum/native/bubblegum_nif/debug/deps/libbs58-02579498da09f42c.rlib: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/alphabet.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/decode.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/encode.rs
+
+/home/runner/workspace/_build/dev/lib/bubblegum/native/bubblegum_nif/debug/deps/bs58-02579498da09f42c.d: /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/lib.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/alphabet.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/decode.rs /home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/encode.rs
+
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/lib.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/alphabet.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/decode.rs:
+/home/runner/workspace/.local/share/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bs58-0.4.0/src/encode.rs:

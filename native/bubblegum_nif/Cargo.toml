@@ -1,0 +1,34 @@
+[package]
+name = "bubblegum_nif"
+version = "0.1.0"
+authors = []
+edition = "2021"
+
+[lib]
+name = "bubblegum_nif"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = { version = "0.36.1", features = ["derive"] }
+solana-sdk = "1.17"
+mpl-bubblegum = "=1.2.0"
+thiserror = "1.0"
+lazy_static = "1.4"
+ttl_cache = "0.5"
+log = "0.4"
+env_logger = "0.10"
+
+[profile.release]
+debug = false
+lto = true
+codegen-units = 1
+opt-level = 3
+
+[profile.dev]
+debug = true
+opt-level = 0
+
+[features]
+default = ["solana"]
+solana = []
