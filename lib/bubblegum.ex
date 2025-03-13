@@ -74,4 +74,14 @@ defmodule Bubblegum do
     recipient :: String.t()
   ) :: {:ok, signature()} | error()
   def transfer(_asset_id, _owner, _recipient), do: :erlang.nif_error(:nif_not_loaded)
+
+  @doc """
+  Clears the cache.
+
+  ## Returns
+  - :ok on success
+  - {:error, reason} on failure
+  """
+  @spec clear_cache() :: :ok | error()
+  def clear_cache, do: :erlang.nif_error(:nif_not_loaded)
 end

@@ -90,4 +90,34 @@ defmodule BubblegumTest do
       assert match?({:ok, _message}, Bubblegum.clear_cache())
     end
   end
+
+  test "create_tree_config/3" do
+    max_depth = 10
+    max_buffer_size = 1024
+    authority = "4Nd1m3n5i0n4lK3y"
+
+    assert {:ok, _signature} = Bubblegum.create_tree_config(max_depth, max_buffer_size, authority)
+  end
+
+  test "mint_v1/5" do
+    name = "Test NFT"
+    symbol = "TST"
+    uri = "https://example.com/metadata.json"
+    collection = "4Nd1m3n5i0n4lK3y"
+    recipient = "4Nd1m3n5i0n4lK3y"
+
+    assert {:ok, _signature} = Bubblegum.mint_v1(name, symbol, uri, collection, recipient)
+  end
+
+  test "transfer/3" do
+    asset_id = "asset123"
+    owner = "4Nd1m3n5i0n4lK3y"
+    recipient = "4Nd1m3n5i0n4lK3y"
+
+    assert {:ok, _signature} = Bubblegum.transfer(asset_id, owner, recipient)
+  end
+
+  test "clear_cache/0" do
+    assert :ok = Bubblegum.clear_cache()
+  end
 end

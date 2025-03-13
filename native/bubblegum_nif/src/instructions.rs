@@ -12,6 +12,7 @@ use mpl_bubblegum::{
 use crate::error::BubblegumError;
 use log::{debug, info, warn};
 
+/// Creates a tree configuration instruction.
 pub fn create_tree_config_ix(
     max_depth: i32,
     max_buffer_size: u32,
@@ -64,6 +65,7 @@ pub fn create_tree_config_ix(
     Ok((transaction, signature))
 }
 
+/// Mints a new compressed NFT.
 pub fn mint_v1_ix(
     name: String,
     symbol: String,
@@ -136,6 +138,7 @@ pub fn mint_v1_ix(
     Ok((transaction, signature))
 }
 
+/// Transfers a compressed NFT to a new owner.
 pub fn transfer_ix(
     asset_id: String,
     owner: Pubkey,

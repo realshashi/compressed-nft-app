@@ -35,12 +35,10 @@ fn init_logger() {
 
 // Define cache for storing frequently accessed data
 lazy_static! {
-    static ref CACHE: Mutex<TtlCache<String, String>> = {
-        let cache = TtlCache::new(100);
-        Mutex::new(cache)
-    };
+    static ref CACHE: Mutex<TtlCache<String, String>> = Mutex::new(TtlCache::new(Duration::from_secs(60)));
 }
 
+/// Creates a new merkle tree configuration for compressed NFTs.
 #[rustler::nif]
 fn create_tree_config(
     max_depth: i32,
@@ -70,6 +68,7 @@ fn create_tree_config(
     Ok(signature.to_string())
 }
 
+/// Mints a new compressed NFT.
 #[rustler::nif]
 fn mint_v1(
     name: String,
@@ -110,6 +109,7 @@ fn mint_v1(
     Ok(signature.to_string())
 }
 
+/// Transfers a compressed NFT to a new owner.
 #[rustler::nif]
 fn transfer(
     asset_id: String,
@@ -146,17 +146,14 @@ fn transfer(
     Ok(signature.to_string())
 }
 
+/// Clears the cache.
 #[rustler::nif]
 fn clear_cache() -> NifResult<String> {
     init_logger();
-    if let Ok(mut cache) = CACHE.lock() {
-        cache.clear();
-        info!("Cache cleared successfully");
-        Ok("Cache cleared successfully".to_string())
-    } else {
-        warn!("Failed to clear cache");
-        Err(BubblegumError::CacheError("Failed to clear cache".to_string()).into())
-    }
+    let mut cache = CACHE.lock().unwrap();
+    cache.clear();
+    info!("Cache cleared successfully");
+    Ok("Cache cleared successfully".to_string())
 }
 
 rustler::init!("Elixir.Bubblegum", [
